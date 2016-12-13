@@ -1,0 +1,1189 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;	
+}
+.page4_wrap{
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.page4_main{
+	width: 964px;
+	background-color: white;
+	/*margin-top: 20px;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*........................主体部分第一页.......................*/
+.page4_main_left1{
+	/*display: none;*/
+	width: 580px;
+	margin-left: 10px;
+	float: left;
+}
+.page4_active_recommend{
+	width: 100%;
+	height: 53px;
+	float: left;
+	overflow: hidden;
+}
+.page4_active_word{
+	width: 100%;
+	height: 39px;
+	float: left;
+	margin-top: 14px;
+}
+.page4_active_word span{
+	display: block;
+	float: left;
+	font-size: 18px;
+	color: #1f1f1f;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 39px;
+}
+.page4_active_type{
+	width: 100%;
+	height: 24px;
+	float: left;
+	padding-bottom: 8px;
+}
+.page4_active_type ul{
+	padding-bottom: 8px;
+	/*float: left;*/
+}
+.page4_active_type ul li{
+	display: inline-block;
+	float: left;
+}
+.page4_active_type ul li a{
+	text-decoration: none;
+	/*float: left;*/
+}
+.page4_active_type ul li:nth-child(1) a{
+	display: block;
+	font-size: 13px;
+	background-image: url(../img/page4/page4_1.jpg);
+	color: white;
+	padding-left: 13px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 5px;
+	line-height: 20px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(2) a{
+	display: block;
+	font-size: 13px;
+	width: 28px;
+	height: 20px;
+	color: #23904f;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(2) a:hover{
+	background-color: #22914d;
+	color: white;
+}
+
+.page4_active_type ul li:nth-child(3) a{
+	display: block;
+	font-size: 13px;
+	width: 28px;
+	height: 20px;
+	color: #23904f;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(3) a:hover{
+	background-color: #22914d;
+	color: white;
+}
+
+.page4_active_type ul li:nth-child(4) a{
+	display: block;
+	font-size: 13px;
+	width: 42px;
+	height: 20px;
+	color: #23904f;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(4) a:hover{
+	background-color: #22914d;
+	color: white;
+}
+
+.page4_active_type ul li:nth-child(5) a{
+	display: block;
+	font-size: 13px;
+	width: 28px;
+	height: 20px;
+	color: #23904f;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(5) a:hover{
+	background-color: #22914d;
+	color: white;
+}
+
+.page4_active_type ul li:nth-child(6) a{
+	display: block;
+	font-size: 13px;
+	width: 28px;
+	height: 20px;
+	color: #23904f;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(6) a:hover{
+	background-color: #22914d;
+	color: white;
+}
+
+.page4_active_type ul li:nth-child(7) a{
+	display: block;
+	font-size: 13px;
+	width: 28px;
+	height: 20px;
+	color: #23904f;
+	line-height: 20px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;
+	float: left;
+}
+.page4_active_type ul li:nth-child(7) a:hover{
+	background-color: #22914d;
+	color: white;
+}
+
+.page4_active_type ul li:nth-child(8){
+	float: right;
+} 
+
+.page4_active_type ul li:nth-child(8) a{
+	display: block;
+	width: 56px;
+	height: 20px;
+	background-color: #ee6517;
+	color: white;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 13px;
+	line-height: 20px;
+}
+.page4_active_type ul li:nth-child(8) a:hover{
+	background-color: #ffa516;
+}
+/*...........................音乐..............................*/
+.page4_musicDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_musicDiv a{
+	text-decoration: none;
+}
+.page4_poster{
+	width: 115px;
+	float: left;
+	
+}
+.page4_poster img{
+	padding-top: 5px;
+	width: 100%;
+	height: 140px;
+	float: left;
+}
+.page4_musicDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_musicDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_musicDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_musicDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_musicDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_musicDiv ul li .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+.page4_musicDiv ul li .page4_note{
+	font-size: 13px;
+}
+/*..............................美食...........................*/
+.page4_foodDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_foodDiv a{
+	text-decoration: none;
+}
+.page4_foodDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_foodDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_foodDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_foodDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_foodDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_foodDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*..............................话剧1..........................*/
+.page4_artDiv1{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_artDiv1 a{
+	text-decoration: none;
+}
+.page4_artDiv1 ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_artDiv1 ul li{
+	float: right;
+	width: 100%;
+}
+.page4_artDiv1 ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_artDiv1 .page4_mainContent{
+	font-size: 13px;
+}
+.page4_artDiv1 .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_artDiv1 .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*.............................话剧2...........................*/
+.page4_artDiv2{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_artDiv2 a{
+	text-decoration: none;
+}
+.page4_artDiv2 ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_artDiv2 ul li{
+	float: right;
+	width: 100%;
+}
+.page4_artDiv2 ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_artDiv2 .page4_mainContent{
+	font-size: 13px;
+}
+.page4_artDiv2 .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_artDiv2 .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*...............................房子..........................*/
+.page4_houseDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_houseDiv a{
+	text-decoration: none;
+}
+.page4_houseDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_houseDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_houseDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+/*.................................文化........................*/
+.page4_cultureDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_cultureDiv a{
+	text-decoration: none;
+}
+.page4_cultureDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_cultureDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_cultureDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_cultureDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_cultureDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_cultureDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*...............................作品..........................*/
+.page4_worksDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_worksDiv a{
+	text-decoration: none;
+}
+.page4_worksDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_worksDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_worksDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_worksDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_worksDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_worksDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*..............................个展...........................*/
+.page4_soloDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_soloDiv a{
+	text-decoration: none;
+}
+.page4_soloDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_soloDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_soloDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_soloDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_soloDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_soloDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*.................................历史.......................*/
+.page4_historyDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_historyDiv a{
+	text-decoration: none;
+}
+.page4_historyDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_historyDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_historyDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_historyDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_historyDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_historyDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*.............................影子...........................*/
+.page4_reflectDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_reflectDiv a{
+	text-decoration: none;
+}
+.page4_reflectDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_reflectDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_reflectDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_reflectDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_reflectDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_reflectDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*........................分页........................*/
+.page4_pagination{
+	width: 100%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: right;
+    overflow: hidden;
+}
+.page4_pagination a{
+	text-decoration: none;
+	line-height: 30px;
+	color: #23904F;
+	font-size: 12px;
+}
+.page4_pagination span{
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.page4_pagination .first{
+	display: none;
+}
+.page4_pagination .one{
+	display:inline;
+	padding: 2px 5px;
+	font-size: 12px;
+	color: white;
+	background-color: #17512b;
+	/*position: absolute;*/
+}
+.page4_pagination .two{
+	display: none;
+	padding: 2px 5px;
+	font-size: 12px;
+	color: white;
+	background-color: #17512b;
+}
+
+/*..........................主体部分第二页....................*/
+.page4_main_left2{
+	display: none;
+	width: 580px;
+	margin-left: 10px;
+	float: left;
+}
+/*...............................蟹.........................*/
+.page4_crabsDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_crabsDiv a{
+	text-decoration: none;
+}
+.page4_crabsDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_crabsDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_crabsDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_crabsDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_crabsDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_crabsDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*..............................波普..........................*/
+.page4_bopuDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_bopuDiv a{
+	text-decoration: none;
+}
+.page4_bopuDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_bopuDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_bopuDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_bopuDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_bopuDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_bopuDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*.........................云艺术...................*/
+.page4_cloudDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_cloudDiv a{
+	text-decoration: none;
+}
+.page4_cloudDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_cloudDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_cloudDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_cloudDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_cloudDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_cloudDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*........................摄影........................*/
+.page4_photoDiv{
+	width: 100%;
+	height: 153px;
+	padding-top: 10px;
+	float: left;
+	margin-bottom: 3px;
+}
+.page4_photoDiv a{
+	text-decoration: none;
+}
+.page4_photoDiv ul{
+	width: 450px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_photoDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_photoDiv ul li span:nth-child(1) a{
+	width: 450px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_photoDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_photoDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_photoDiv .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+
+/*..........................主体内容右侧内容...........*/
+.page4_main_right{
+	width: 335px;
+	margin-right: 10px;
+	float: right;
+}
+/*............................天气....................*/
+.newsWeather{
+	width: 100%;
+	height: 158px;
+	float: left;
+	margin-top: 24px;
+	/*padding-top: 15px;*/
+	background-color: #1e75c1;
+	cursor: pointer;
+	background-image: url(../img/page4/page4_12.png);
+}
+.newsWeather .page4_click_search{
+	width: 147px;
+	height: 29px;
+	/*border: 1px solid black;*/
+	float: left;
+	padding-left: 9px;
+	padding-top: 4px;
+}
+
+/*...........................日历....................*/
+.page4_calendar{
+	width: 100%;
+	height: 175px;
+	margin-top: 20px;
+	float: left;
+}
+.page4_calendar a{
+	text-decoration: none;
+}
+.page4_calendar a img{
+	width: 100%;
+}
+/*............................实讯....................*/
+.page4_news{
+	width: 100%;
+	height: 453px;
+	float: left;
+	margin-top: 30px;
+}
+.page4_news .today{
+	width: 100%;
+	float: left;
+	height: 35px;
+	line-height: 25px;
+}
+.page4_news .today span:nth-child(1){
+	display: block;
+    float: left;
+    font-size: 15px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.page4_news .today span:nth-child(2) a{
+	text-decoration: none;
+}
+.page4_news .today span:nth-child(2){
+	display: block;
+	float: right;
+	font-size: 13px;
+	line-height: 28px;
+	color: #1F1F1F;
+	font-weight: bold;
+}
+.page4_news ul{
+	width: 100%;
+	float: left;
+}
+.page4_news ul li{
+	width: 100%;
+	float: left;
+	line-height: 22px;
+	height: 22px;
+	overflow: hidden;
+}
+.page4_news ul li img{
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.page4_news ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 22px;
+	color: #666666;
+}
+.page4_news ul li a:hover{
+	color: #ea6614;
+}
+/*.........................活动回顾...................*/
+.page4_look_back{
+	width: 100%;
+	/*height: 453px;*/
+	float: left;
+	margin-top: 30px;
+}
+.page4_look_back .lookback{
+	width: 100%;
+	float: left;
+	height: 35px;
+	line-height: 25px;
+}
+.page4_look_back .lookback span:nth-child(1){
+	display: block;
+    float: left;
+    font-size: 15px;
+    color: #1f1f1f;
+    font-weight: bold;
+}
+.page4_look_back .lookback span:nth-child(2) a{
+	text-decoration: none;
+}
+.page4_look_back .lookback span:nth-child(2){
+	display: block;
+	float: right;
+	font-size: 13px;
+	line-height: 28px;
+	color: #1F1F1F;
+	font-weight: bold;
+}
+/*........................福尔摩斯....................*/
+.page4_holmesDiv{
+	width: 335px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.page4_holmesDiv .page4_poster{
+	width: 95px;
+	float: left;
+}
+.page4_holmesDiv img{
+	padding-top: 5px;
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+.page4_holmesDiv a{
+	text-decoration: none;
+}
+.page4_holmesDiv ul{
+	width: 227px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_holmesDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_holmesDiv ul li span:nth-child(1) a{
+	width: 227px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_holmesDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_holmesDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_holmesDiv ul li .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*............................姐妹..................*/
+.page4_sistersDiv{
+	width: 335px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.page4_sistersDiv .page4_poster{
+	width: 95px;
+	float: left;
+}
+.page4_sistersDiv img{
+	padding-top: 5px;
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+.page4_sistersDiv a{
+	text-decoration: none;
+}
+.page4_sistersDiv ul{
+	width: 227px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_sistersDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_sistersDiv ul li span:nth-child(1) a{
+	width: 227px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_sistersDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_sistersDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_sistersDiv ul li .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*........................书画......................*/
+.page4_pacDiv{
+	width: 335px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.page4_pacDiv .page4_poster{
+	width: 95px;
+	float: left;
+}
+.page4_pacDiv img{
+	padding-top: 5px;
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+.page4_pacDiv a{
+	text-decoration: none;
+}
+.page4_pacDiv ul{
+	width: 227px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_pacDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_pacDiv ul li span:nth-child(1) a{
+	width: 227px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_pacDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_pacDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_pacDiv ul li .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}
+/*..........................分享...................*/
+.page4_shareDiv{
+	width: 335px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+.page4_shareDiv .page4_poster{
+	width: 95px;
+	float: left;
+}
+.page4_shareDiv img{
+	padding-top: 5px;
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+.page4_shareDiv a{
+	text-decoration: none;
+}
+.page4_shareDiv ul{
+	width: 227px;
+	float: right;
+	font-size: 12px;
+	line-height: 24px;
+}
+.page4_shareDiv ul li{
+	float: right;
+	width: 100%;
+}
+.page4_shareDiv ul li span:nth-child(1) a{
+	width: 227px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #23904f;
+}
+.page4_shareDiv .page4_mainContent{
+	font-size: 13px;
+}
+.page4_shareDiv .page4_mainContent a{
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	color: black;
+}
+.page4_shareDiv ul li .page4_mainContent a:hover{
+	/*padding: ;*/
+	color: white;
+	background-color: #ee6517;
+}

@@ -1,0 +1,231 @@
+*{margin:0;padding:0}
+body{
+	background-color: rgb(244,249,242);
+}
+#login_top>div{
+	max-width: 1000px;
+	height:550px;
+	margin:0 auto;
+	position:relative;
+	background-image:url("../../img/logo1.jpg"),url("../../img/logintopbg.jpg"),url("../../img/logo1.jpg");
+	background-repeat: no-repeat;
+}
+#ltLeft>img:nth-child(1){
+	position:absolute;
+	top:115px;
+}
+#ltLeft>label:nth-child(2){
+	font-size: 14px;
+	position:absolute;
+	top:197px;
+	left:13px;
+}
+#login_user,#login_pass{
+	width:360px;
+	height:36px;
+	border:1px solid rgb(203,203,203);
+	border-radius:5px;
+	font-size: 18px;
+	position:absolute;
+	left:115px;
+}
+#login_user{
+	top:185px;
+}
+#ltLeft>label:nth-child(5){
+	font-size: 14px;
+	position:absolute;
+	top:256px;
+	left:13px;
+}
+#login_pass{
+	top:244px;
+}
+#ltLeft>input:nth-child(8){
+	position:absolute;
+	left:115px;
+	top:296px;
+}
+#ltLeft>span:nth-child(9){
+	position:absolute;
+	font-size: 12px;
+	left:138px;
+	top:295px;
+}
+#ltLeft>input:nth-child(10){
+	width:110px;
+	border-radius:5px;
+	height:35px;
+	background-color: green;
+	font-size: 16px;
+	color:white;
+	position:absolute;
+	left:115px;
+	top:342px;
+}
+#ltLeft a{
+	text-decoration: none;
+}
+#ltLeft>a:nth-child(11){
+	color:darkslategray;
+	font-size: 12px;
+	position:absolute;
+	left:510px;
+	top:258px;
+}
+#ltLeft>p:nth-child(12){
+	font-size: 12px;
+	color:darkslategray;
+	position:absolute;
+	left:115px;
+	top:424px;
+}
+#ltLeft>a:nth-child(13),#ltLeft>a:nth-child(14){
+	display: block;
+	width:93px;
+	height:30px;
+	background: url("../../img/weibo.jpg");
+	/*background-size: 100% 100%;*/
+	position:absolute;
+}
+#ltLeft>a:nth-child(13){
+	left:276px;
+	top:416px;
+}
+#ltLeft>a:nth-child(14){
+	background: url("../../img/qq.jpg");
+	/*background-size: 100% 100%;*/
+	left:385px;
+	top:416px;
+}
+#ltLeft>p:nth-child(15){
+	font-size: 12px;
+	color:darkslategray;
+	position:absolute;
+	left:115px;
+	top:476px;
+}
+
+
+#ltXian{
+	width:1px;
+	height:339px;
+	background-color: rgb(204,204,204);
+	position:absolute;
+	right:205px;
+	top:116px;
+}
+
+#ltRight>p{
+	font-size: 12px;
+	color:gray;
+	position:absolute;
+	right:96px;
+	top:135px;
+	
+}
+#ltRight>a{
+	border:1px solid rgb(203,203,203);
+	background-color: rgb(248,248,248);
+	font-size: 16px;
+	color:rgb(60,156,110);
+	width:107px;
+	height:33px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 5px;
+	position:absolute;
+	right:65px;
+	top:163px;
+}
+#login_bottom{
+	width:95vw;
+	height:122px;
+	background-color: white;
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	top:553px;
+}
+#login_bottom>p{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 39px;
+}
+#login_bottom>p:nth-child(2){
+	margin-top: 20px;
+}
+
+@media screen and (max-width:1030px) and (min-width:773px){
+	#login_user,#login_pass,#ltLeft>input:nth-child(8),#ltLeft>input:nth-child(10),#ltLeft>p:nth-child(12),#ltLeft>p:nth-child(15){
+		left:11.5%;
+	}
+	#ltLeft>span:nth-child(9){
+		left:13.8%;
+	}
+}
+@media screen and (max-width:773px) and (min-width:641px){
+	#login_user,#login_pass,#ltLeft>input:nth-child(8),#ltLeft>input:nth-child(10),#ltLeft>p:nth-child(12),#ltLeft>p:nth-child(15){
+		left:11.5%;
+	}
+	#login_user,#login_pass{
+		width:300px;
+	}
+	#ltLeft>input:nth-child(8){
+		top:324px;
+	}
+	#ltLeft>span:nth-child(9){
+		top:324px;
+		left:13.8%;
+	}
+	#ltLeft>a:nth-child(11){
+		left:13.8%;
+		top:296px;
+	}
+	#ltLeft>a:nth-child(13){
+		left:243px;
+	}
+	#ltLeft>a:nth-child(14){
+		left:340px;
+	}
+}
+@media screen and (max-width:641px){
+		#login_user,#login_pass,#ltLeft>input:nth-child(8),#ltLeft>input:nth-child(10),#ltLeft>p:nth-child(12),#ltLeft>p:nth-child(15){
+			left:14.5%;
+		}
+		#ltLeft>input:nth-child(8){
+		top:324px;
+	}
+	#login_user,#login_pass{
+		width:300px;
+	}
+	#ltLeft>span:nth-child(9){
+		top:324px;
+		left:17.8%;
+	}
+		#ltLeft>a:nth-child(11){
+			left:13.8%;
+			top:296px;
+		}
+		#ltLeft>a:nth-child(13){
+				top:443px;
+				left:109px;
+			}
+		#ltLeft>a:nth-child(14){
+				top:443px;
+				left:209px;
+			}
+		#ltXian{
+			display: none;
+		}
+		#ltRight>p{
+			left:14.5%;
+			top:495px;
+		}
+		#ltRight>a{
+			left:14.5%;
+			top:512px;
+		}
+}

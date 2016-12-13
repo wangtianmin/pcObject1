@@ -1,0 +1,594 @@
+*{margin:0;padding: 0;}
+.wukang_a{text-decoration: none;color: rgba(255,255,255,1);display:inline-block;}
+.wukang2_a{text-decoration: none;color: rgba(255,255,255,1);display:inline-block;}
+.wkGaiLun{
+	width: 966px;
+	margin:20px auto;
+	background-image:url("../img/wukanglu/bg.jpg");
+}
+.wkGaiLun_head{
+	width: 948px;height: 360px;
+	margin:10px 0 0 9px;
+}
+.wkGaiLun_headL{
+	width: 236px;height: 360px;
+	background-color: rgba(117,76,27,1);
+}
+.wkGaiLun_headL p:nth-child(1){
+	width:236px ;
+	font-size: 36px;
+	padding-top: 16px;
+	color: rgba(230,221,187,1);
+	margin-left:100px;
+}
+.wkGaiLun_headL p:nth-child(2){
+	width: 236px;
+	padding-top:13.5px;
+	font-size: 20px;
+	
+	color: rgba(196,180,148,1);
+	margin-left: 50px;
+}
+.wkGaiLun_headL_list{
+	margin-top: 20px;margin-left:63.5px ;
+	width: 149px;height: 231px;	
+}
+.wkGaiLun_headL_list li{
+	height: 32px;
+	border-bottom: 1px dotted rgba(182,148,108,1);
+	line-height: 32px;
+	text-align: center;
+	opacity: 0.8;
+}
+.wkGaiLun_headL_list li a:hover{
+	color: gold;
+}
+.wkGaiLun_headR{
+	width: 712px;height: 360px;
+	margin:-360px 0 0 236px;
+	position: relative;
+}
+.wkGaiLun_headR div{
+	position: absolute;
+	top: 0;left: 0;
+	width: 712px;height: 360px;
+	opacity: 0;
+}
+.wkGaiLun_headR div:nth-child(1){
+	background: url("../img/wukanglu/ditu_bg.jpg") no-repeat ;
+}
+.wkGaiLun_headR div:nth-child(2){
+	background: url("../img/wukanglu/ditu_bg.jpg") no-repeat ;
+}
+.wkGaiLun_headR div:nth-child(3){
+	background: url("../img/wukanglu/history/history_bg.jpg") no-repeat ;
+}
+.wkGaiLun_headR div:nth-child(4){
+	background: url("../img/wukanglu/infomation/info_bg.jpg") no-repeat ;
+}
+.wkGaiLun_headR div:nth-child(5){
+	background: url("../img/wukanglu/Counseling_center/center_bg.jpg") no-repeat ;
+}
+.wkGaiLun_headR div:nth-child(6){
+	background: url("../img/wukanglu/bycicle/seven_bg.jpg") no-repeat ;
+}
+/******************************中间部分**************************************/
+.wkGaiLun_middle{
+	width: 948px;
+}
+.wkGaiLun_middle li{
+	font-size: 12px;
+	color: rgba(149,114,76,1);
+	line-height: 16px;
+}
+.wkGaiLun_middle ul{
+	list-style: none;
+}
+.wkGaiLun_middle a{
+	text-decoration: none;
+}
+/********************************第一部分**************************************/
+
+.wkGaiLun_middle_1 div:nth-child(1){
+	width: 406px;height: 54px;
+	background: url("../img/wukanglu/wukanglukuang.jpg");
+}
+.wkGaiLun_middle1_zhong{
+	width: 892px;margin-left: 28px;
+	
+}
+.wkGaiLun_middle1_zhong p{
+	font-size: 12px;
+	color: rgba(149,114,76,1);
+	margin-bottom: 30px;
+	line-height: 18px;
+}
+/********************************第二部分**************************************/
+.wkGaiLun_middle_2{
+	position: relative;
+	margin-top: 40px;
+	width: 948px;height: 1024px;
+}
+.wkGaiLun_middle_2 div:nth-child(1){
+	position: absolute;
+	top: 90px;left: 36px;
+	width: 243px;height: 193px;
+	background: url("../img/wukanglu/ditu1.jpg");
+	z-index: 1;
+}
+.wkGaiLun_middle_2 div:nth-child(2){
+	position: absolute;
+	top: 20px;left: 0;
+	width: 948px;height: 994px;
+	background: url("../img/wukanglu/ditu2.jpg");
+}
+
+/********************************第三部分**************************************/
+.wkGaiLun_middle_3{
+	width: 948px;margin-left: 44px;
+	margin-top:30px;
+}
+.wkGaiLun_middle3_home{
+	width: 148px;height: 36px;
+	border:1px solid white;
+	background-color: rgba(197,126,2,1);
+	font-size: 18px;
+	line-height: 36px;
+	text-align: center;
+}
+.wkGaiLun_middle3_home a{
+	display: block;
+	width: 148px;height: 36px;
+	color: white;
+}
+.wkGaiLun_middle3_history{
+	margin: -38px 0 0 160px;
+	background-color: gray;
+}
+.wkGaiLun_middle3_list{
+	width: 860px;height: 680px;
+}
+.wkGaiLun_middle3_list li{
+	display: inline-block;
+	width: 424px;height: 82px;
+	box-sizing: border-box;
+	margin-top: 26px;
+}
+.wkGaiLun_middle3_li{position: relative;}
+.wkGaiLun_middle3_li a{
+	display: block;
+	width: 100px;height: 82px;
+}
+.wkGaiLun_middle3_list li:nth-child(1) a{
+	background: url("../img/wukanglu/history/1-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(2) a{
+	background: url("../img/wukanglu/history/1-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(3) a{
+	background: url("../img/wukanglu/history/2-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(4) a{
+	background: url("../img/wukanglu/history/2-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(5) a{
+	background: url("../img/wukanglu/history/3-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(6) a{
+	background: url("../img/wukanglu/history/3-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(7) a{
+	background: url("../img/wukanglu/history/4-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(8) a{
+	background: url("../img/wukanglu/history/4-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(9) a{
+	background: url("../img/wukanglu/history/5-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(10) a{
+	background: url("../img/wukanglu/history/5-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list li:nth-child(11) a{
+	background: url("../img/wukanglu/history/6-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+
+.wkGaiLun_middle3_li span{
+	position: absolute;
+	left: 110px;top: 6px;
+	color: rgba(104,68,28,1);
+}
+.wkGaiLun_middle3_li p{
+	position: absolute;
+	left: 110px;top: 26px;
+	width: 280px;
+	color: rgba(0,0,0,0.6);;
+}
+
+.wkGaiLun_middle3_list2{
+	width: 860px;height: 800px;
+}
+.wkGaiLun_middle3_list2 li{
+	display: inline-block;
+	width: 424px;height: 82px;
+	box-sizing: border-box;
+	margin-top: 26px;
+}
+.wkGaiLun_middle3_li2{position: relative;}
+.wkGaiLun_middle3_li2 a{
+	display: block;
+	width: 100px;height: 82px;
+}
+.wkGaiLun_middle3_li2 span{
+	position: absolute;
+	left: 110px;top: 6px;
+	color: rgba(104,68,28,1);
+}
+.wkGaiLun_middle3_li2 p{
+	position: absolute;
+	left: 110px;top: 26px;
+	width: 280px;
+	color: rgba(0,0,0,0.6);;
+}
+.wkGaiLun_middle3_list2 li:nth-child(1) a{
+	background: url("../img/wukanglu/history/x1-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(2) a{
+	background: url("../img/wukanglu/history/x1-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(3) a{
+	background: url("../img/wukanglu/history/x2-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(4) a{
+	background: url("../img/wukanglu/history/x2-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(5) a{
+	background: url("../img/wukanglu/history/x3-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(6) a{
+	background: url("../img/wukanglu/history/x3-2.png") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(7) a{
+	background: url("../img/wukanglu/history/x4-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(8) a{
+	background: url("../img/wukanglu/history/x4-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(9) a{
+	background: url("../img/wukanglu/history/x5-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(10) a{
+	background: url("../img/wukanglu/history/x5-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(11) a{
+	background: url("../img/wukanglu/history/x6-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(12) a{
+	background: url("../img/wukanglu/history/x6-2.jpg") no-repeat;
+	background-size:100% 100%;
+}
+.wkGaiLun_middle3_list2 li:nth-child(13) a{
+	background: url("../img/wukanglu/history/x7-1.jpg") no-repeat;
+	background-size:100% 100%;
+}
+/********************************第四部分**************************************/
+.wkGaiLun_middle_4{
+	width: 948px;margin-left: 44px;
+}
+.wkGaiLun_middle_4 a{
+	color: rgba(104,68,28,1);
+}
+.wkGaiLun_middle4_num{
+	position: relative;
+	width: 860px;height: 164px;
+	border-bottom: 1px solid black;
+	
+}
+.wkGaiLun_middle4_fir{
+	width: 860px;height: 380px;
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+	background: url("../img/wukanglu/infomation/1.jpg") 650px 40px no-repeat,url("../img/wukanglu/infomation/2.jpg") 650px 160px no-repeat ;
+	background-size:100px 100px;	
+}
+.wkGaiLun_middle4_list{
+	width: 510px;height: 330px;
+	margin-top: 30px;
+}
+.wkGaiLun_middle4_list li{
+	margin-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+.wkGaiLun_middle4_list li:nth-child(10){
+	padding-top: 30px;
+}
+.wkGaiLun_middle4_sec{
+	background: url("../img/wukanglu/infomation/3.jpg") 650px 30px no-repeat;
+	background-size:100px 100px;
+}
+.wkGaiLun_middle4_sec a:nth-child(1){
+	position: absolute;
+	left: 0;top: 20px;
+}
+.wkGaiLun_middle4_sec a:nth-child(2){
+	position: absolute;
+	left: 0;top: 60px;
+	font-size: 12px;
+}
+.wkGaiLun_middle4_thi{
+	background: url("../img/wukanglu/infomation/4.jpg") 650px 40px no-repeat;
+	background-size:100px 100px;
+}
+.wkGaiLun_middle4_thi a:nth-child(1){
+	position: absolute;
+	left: 0;top: 20px;
+}
+.wkGaiLun_middle4_thi a:nth-child(2){
+	position: absolute;
+	left: 0;top: 60px;
+	font-size: 12px;
+}
+.wkGaiLun_middle4_thi p{
+	position: absolute;
+	left: 0;top: 80px;
+	width: 600px;
+	font-size: 12px;
+	line-height: 16px;
+	color: rgba(0,0,0,0.6);
+}
+.wkGaiLun_middle4_for{
+	background: url("../img/wukanglu/infomation/5.jpg") 650px 40px no-repeat;
+	background-size:100px 100px;
+}
+.wkGaiLun_middle4_for a:nth-child(1){
+	position: absolute;
+	left: 0;top: 20px;
+}
+.wkGaiLun_middle4_for a:nth-child(2){
+	position: absolute;
+	left: 0;top: 60px;
+	font-size: 12px;
+}
+.wkGaiLun_middle4_for p{
+	position: absolute;
+	left: 0;top: 80px;
+	width: 600px;
+	font-size: 12px;
+	line-height: 16px;
+	color: rgba(0,0,0,0.6);
+}
+
+.wkGaiLun_middle4_fif{
+	width: 860px;height: 400px;
+	margin-top: 40px;
+	background: url("../img/wukanglu/infomation/6.jpg") 650px 10px no-repeat,url("../img/wukanglu/infomation/7.jpg") 650px 130px no-repeat,
+	url("../img/wukanglu/infomation/8.jpg") 650px 270px no-repeat,url("../img/wukanglu/infomation/9.jpg") 760px 270px no-repeat;
+	background-size:100px 100px,100px 100px;	
+}
+.wkGaiLun_middle4_list2{
+	width: 600px;height: 370px;
+	margin-top: 30px;
+}
+.wkGaiLun_middle4_list2 li{
+	margin-top: 10px;
+	color: rgba(0,0,0,0.6);
+}
+/********************************第五部分**************************************/
+.wkGaiLun_middle_5{
+	width: 948px;
+	margin:50px 0 0 34px;
+}
+.wkGaiLun_middle_5 p{
+	color: rgba(149,114,76,1);
+}
+.wkGaiLun_middle_5 ul{
+	list-style: none;
+}
+.wkGaiLun_middle_5 div:nth-child(1){
+	width: 356px;height: 32px;
+	color: white;
+	background: url("../img/wukanglu/Counseling_center/changtiao.png") no-repeat;
+	text-align: center;
+	line-height: 30px;
+}
+.wkGaiLun_middle_5 p:nth-child(2){
+	margin-top: 40px;margin-bottom:48px;
+	width: 855px;
+	line-height: 24px;
+}
+.wkGaiLun_middle_5p{
+	margin-top:16px;
+}
+.wkGaiLun_middle_5 div:nth-child(6){
+	width:855px;height: 230px;
+	margin-top: 60px;
+	background: url("../img/wukanglu/Counseling_center/fuwu.png") no-repeat;
+	background-size: 100% 100%;
+}
+.wkGaiLun_middle_5 div:nth-child(7){
+	width: 104px;height: 32px;
+	margin-top: 60px;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	background: url("../img/wukanglu/Counseling_center/duantiao.png") no-repeat;
+}
+.wkGaiLun_middle5_list{
+	width: 910px;height: 152px;
+	margin: 26px 0 0 -10px;
+}
+.wkGaiLun_middle5_list li{
+	position: relative;
+	display: inline-block;
+	width: 175.6;height: 152px;
+	margin-left: 4px;
+}
+.wkGaiLun_middle5_list span{
+	position: absolute;
+	left: 0;bottom: 0;
+	text-align: center;
+	line-height: 24px;
+	width: 175px;height: 22px;
+	color: white;
+	background-color: rgba(0,0,0,0.6);
+}
+.wkGaiLun_middle_5 div:nth-of-type(4){
+	width: 104px;height: 32px;
+	margin: 50px 0 30px 0;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	background: url("../img/wukanglu/Counseling_center/duantiao.png") no-repeat;
+}
+.wkGaiLun_weibo{
+	margin-left: 100px;margin-bottom: 50px;
+}
+.wkGaiLun_weixin{
+	margin-left: 50px;margin-bottom: 50px;
+}
+
+/********************************第六部分**************************************/
+.wkGaiLun_middle_6{
+	width: 948px;margin-left: 34px;
+}
+.wkGaiLun_middle6_fir{
+	width:860px;height: 306px;
+	margin-top: 40px;
+	background: url("../img/wukanglu/bycicle/lou.jpg") 630px 0 no-repeat ;
+	background-size: 227px 290px;
+	border-bottom: 1px solid black;				
+}
+.wkGaiLun_middle6_list{
+	width:590px;height: 320px;
+	padding-top:20px ;
+}
+.wkGaiLun_middle6_list li:nth-child(1){
+	font-size: 16px;
+}
+.wkGaiLun_middle6_list li:nth-child(2){
+	color: black;
+	margin-top: 20px;
+}
+.wkGaiLun_middle6_list li:nth-child(3){
+	margin-top: 6px;
+}
+.wkGaiLun_middle6_list li:nth-child(4){
+	color: black;
+	margin-top: 10px;
+}
+.wkGaiLun_middle6_list li:nth-child(5){
+	margin-top: 6px;
+}
+.wkGaiLun_middle6_list li:nth-child(6){
+	color: black;
+	margin-top: 10px;
+}.wkGaiLun_middle6_list li:nth-child(7){
+	margin-top: 6px;
+}
+
+.wkGaiLun_middle6_sec{
+	margin-top: 20px;
+	width:860px;height: 176px;
+	background: url("../img/wukanglu/bycicle/biji.jpg") 650px 0 no-repeat ;
+	border-bottom: 1px solid black;		
+}
+.wkGaiLun_middle6_sec P{
+	font-size: 12px;
+	color: rgba(149,114,76,1);
+	line-height: 18px;
+}
+.wkGaiLun_middle6_sec P:nth-child(1){
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.wkGaiLun_middle6_sec P:nth-child(3){
+	margin-bottom: 30px;
+}
+.wkGaiLun_middle6_sec P:nth-child(6){
+	margin: -102px 0 0 300px;
+}
+.wkGaiLun_middle6_sec P:nth-child(7){
+	margin: 0px 0 0 300px;
+}
+.wkGaiLun_middle6_thi{
+	margin-top: 20px;
+	width:860px;height: 200px;
+	border-bottom: 1px solid black;		
+}
+.wkGaiLun_middle6_thiList li{
+	margin-top:10px ;
+	
+}
+.wkGaiLun_middle6_thiList li:nth-child(1){
+	font-size: 16px;
+}
+.wkGaiLun_middle6_thiList li:nth-child(4){
+	color: black;
+}
+.wkGaiLun_middle6_for{
+	margin-top: 20px;
+	width:860px;height: 176px;
+	background: url("../img/wukanglu/bycicle/che.jpg") 650px 0 no-repeat ;
+	border-bottom: 1px solid black;	
+}
+.wkGaiLun_middle6_for>P{
+	margin-bottom: 20px;
+	color: rgba(149,114,76,1);
+}
+.wkGaiLun_middle6_for ul{
+	list-style: none;
+}
+.wkGaiLun_middle6_for_list1{
+	width: 260px;height: 60px;
+}
+.wkGaiLun_middle6_for_list2{
+	width: 260px;height: 60px;
+	margin:-60px 0 0 300px;
+}
+.wkGaiLun_middle6_fif{
+	margin-top: 20px;
+	width:860px;height: 176px;
+	background: url("../img/wukanglu/bycicle/noche.jpg") 650px 0 no-repeat ;
+}
+.wkGaiLun_middle6_fif p:nth-child(1){
+	color: rgba(149,114,76,1);
+	margin-bottom: 20px;
+}
+.wkGaiLun_middle6_fif p:nth-child(2){
+	color: rgba(149,114,76,1);
+	font-size: 12px;
+}
+/********************************结尾部分Start**************************************/
+.wkGaiLun_footer{
+	width: 948px;height: 70px;
+	background: url("../img/wukanglu/logo_xian.jpg") no-repeat 12px 0;
+}
+.wkGaiLun_footer p{
+	padding-top: 15px;
+	font-size: 12px;
+	text-align: center;
+	color: rgba(149,114,76,1);
+}
+/********************************结尾部分End**************************************/

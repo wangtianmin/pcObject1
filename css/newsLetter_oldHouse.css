@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.newsLetter_oldHouse_wrap{
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.newsLetter_oldHouse_middle{
+	width: 964px;
+	background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+/*................................老房子标题样式..........................*/
+.newsLetter_oldHouse_slide{
+	width: 920px;
+	/*height: 53px;*/
+	height: auto;
+	margin: 0 auto;
+	padding-top: 15px;
+	line-height: 22px;
+}
+.newsLetter_oldHouse_slide a{
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+}
+.newsLetter_oldHouse_slide span{
+	font-size: 13px;
+}
+.newsLetter_oldHouse_titleAndShare{
+	width: 920px;
+	height: 54px;
+	margin: 0 auto;
+}
+.newsLetter_oldHouse_titleAndShare span{
+	font-size: 20px;
+	float: left;
+	color: #23904F;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.newsLetter_oldHouse_share{
+	width: 31%;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.newsLetter_oldHouse_share a:nth-child(1){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_wechat.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(2){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_qqSpace.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(3){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_sina.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(4){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_tencent.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(5){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_happy.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(6){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_douban.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(7){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_tencentFriend.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(8){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_qqFriend.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_oldHouse_share a:nth-child(9){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_more.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+/*............................波普之上活动具体安排.........................*/
+.newsLetter_oldHouse_fixed{
+	width: 920px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-left: 22px;
+	margin-right: 22px;
+	height: auto;
+	border-top: 1px dashed #666666;
+	border-bottom: 1px dashed #666666;
+	font-size: 14px;
+	line-height: 30px;
+	float: left;
+	overflow: hidden;
+}
+/*................................老房子主体内容...........................*/
+.newsLetter_oldHouse_main{
+	width: 920px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.newsLetter_oldHouse_main p {
+	text-align: center;
+	font-size: 16px;
+	line-height:26px ;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.newsLetter_oldHouse_main p:nth-child(1) span{
+	color: #337FE5;
+}
+.newsLetter_oldHouse_main p:nth-child(2) span{
+	color: #337FE5;
+}
+.newsLetter_oldHouse_main p:nth-child(3) span{
+	color: #003399;
+}
+.newsLetter_oldHouse_main p:nth-child(4) span{
+	color: #003399;
+}
+.newsLetter_oldHouse_main p:nth-child(13){
+	text-align: left;
+}
+.newsLetter_oldHouse_main p:nth-child(15) span{
+	color: #337FE5;
+	font-size: 18px;
+}
+.newsLetter_oldHouse_main p:nth-child(16) span{
+	color: #337FE5;
+	/*font-size: 18px;*/
+}
+.newsLetter_oldHouse_main p:nth-child(17) a{
+	display: inline-block;
+	text-decoration: none;
+	width: 600px;
+}
+.newsLetter_oldHouse_main p:nth-child(17) a img{
+	width: 100%;
+}
+
+.newsLetter_oldHouse_main p:nth-child(18) span{
+	font-size: 18px;
+	color: #337FE5;
+	font-weight: bold;
+}
+/*....................................老房子地址............................*/
+.newsLetter_oldHouse_map{
+	/*float: left;*/
+	overflow: hidden;
+	width: 920px;
+	height: 298px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+.newsLetter_oldHouse_map img{
+	padding-top: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.newsLetter_oldHouse_map a{
+	text-decoration: none;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 18px;
+	line-height: 18px;
+	color: #990000;
+}
+.newsLetter_oldHouse_map a:hover{
+	color: #666666;
+}
+
+

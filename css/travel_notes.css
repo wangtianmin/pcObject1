@@ -1,0 +1,238 @@
+.main{
+	width: 100%;
+	padding-bottom: 30px;
+	background: url('../img/logoB.jpg') 0 0 repeat;
+}
+
+.main .content{
+	width: 964px;
+	background-color: white;
+	position: relative;
+	margin: 0 auto;
+}
+/*头部的作者和发帖模块*/
+.main .content .title{
+	width: 956px;
+	margin-top: 20px;
+	margin-bottom: 3px;
+}
+.main .content .title ul{
+	width: 956px;
+	border: 1px solid #f0f0f0;
+	overflow: hidden;
+}
+.main .content .title ul li{
+	width: 941px;
+	height: 30px;
+	padding-left: 15px;
+	float: left;
+	line-height: 30px;
+}
+.main .content .title ul li:nth-child(1){
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.main .content .title ul li span,
+.main .content .title ul li a{
+	font-size: 12px;
+	color: gray;
+}
+.main .content .title ul select[name ="themelist"]{
+	background-color: white;
+}
+
+.main .content .title ul li ul{
+	width: 200px;
+	position: absolute;
+	left: 170px;
+	top: 5px;
+	overflow: hidden;
+	border: 0;
+}
+.main .content .title ul li ul li{
+	width: 60px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	padding: 0;
+	float: left;
+	background: url("../img/travelnotes/abg.gif") no-repeat;
+}
+
+/*文章的标题*/
+.main .content .text{
+	width: 956px;
+	border: 1px solid #f0f0f0;
+	overflow: hidden;
+}
+.main .content .text .userinfo{
+	width: 120px;
+	margin-top: 90px;
+	padding: 0 10px;
+	float: left;
+}
+.main .content .text .userinfo a,
+.main .content .text .userinfo span{
+	font-size: 12px;
+	line-height: 20px;
+	color: black;
+}
+.main .content .text .userinfo ul{
+	width: 120px;
+	overflow: hidden;
+}
+.main .content .text .userinfo ul li{
+	width: 120px;
+	height: 15px;
+	margin-top: 5px;
+	float: left;
+	font-size: 12px;
+	line-height: 16px;
+}
+.main .content .text .userinfo ul li:nth-child(1){
+	background: url("../img/travelnotes/Topic1.gif") no-repeat;
+}
+.main .content .text .userinfo ul li:nth-child(2){
+	background: url("../img/travelnotes/Topic2.gif") no-repeat;
+}
+.main .content .text .userinfo ul li:nth-child(3){
+	background: url("../img/travelnotes/Topic3.gif") no-repeat;
+}
+
+.main .content .text .theme{
+	width: 816px;
+	float: left;
+	margin-top: 10px;
+}
+.main .content .text .theme .head{
+	overflow: hidden;
+	margin-bottom: 50px;
+} 
+.main .content .text .theme .head h2{
+	font-size: 22px;
+	margin-bottom: 10px;
+} 
+.main .content .text .theme .head strong{
+	font-size: 12px;
+	font-weight: normal;
+	float: right;
+	margin-top: -27px;
+} 
+.main .content .text .theme .head span{
+	font-size: 12px;
+} 
+.main .content .text .theme .head span.active{
+	color: #fb9b69;
+	margin-left: 10px;
+} 
+.main .content .text .theme .head .share{
+	margin-top: 15px;
+	float: right;
+	overflow: hidden;
+}
+.main .content .text .theme .head .share li{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+}
+.main .content .text .theme .head .share li a{
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+.main .content .text .theme .head .share li:nth-child(1){
+	background: url("../img/db_xuhui/share.png") 0 -1208px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(2){
+	background: url("../img/db_xuhui/share.png") 0 -38px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(3){
+	background: url("../img/db_xuhui/share.png") 0 -77px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(4){
+	background: url("../img/db_xuhui/share.png") 0 -194px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(5){
+	background: url("../img/db_xuhui/share.png") 0 -233px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(6){
+	background: url("../img/db_xuhui/share.png") 0 -350px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(7){
+	background: url("../img/db_xuhui/share.png") 0 -272px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(8){
+	background: url("../img/db_xuhui/share.png") 0 -1987px no-repeat;
+	background-size: 18px 2445px;
+}
+.main .content .text .theme .head .share li:nth-child(9){
+	background: url("../img/db_xuhui/share.png") 0 0 no-repeat;
+	background-size: 18px 2445px;
+}
+
+/*文章的内容*/
+.main .content .text .theme .soma{
+	width: 816px;
+}
+.main .content .text .theme .soma img{
+	display: block;
+	width: 700px;
+	margin: 0 auto;
+}
+.main .content .text .theme .soma p{
+	width: 760px;
+	margin: 15px auto;
+	font-family: 'Microsoft Yahei', 'Microsoft JhengHei', SimSun, Arail, Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+}
+.main .content .text .theme .soma span{
+	display: block;
+	margin-top: 70px;
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+
+/*底部的发表和回复模块*/
+.main .content .publish{
+	width: 956px;
+	height: 25px;
+	border: 1px solid #f0f0f0;
+	border-top: 0;
+	overflow: hidden;
+}
+.main .content .publish ul{
+	float: right;
+	overflow: hidden;
+}
+.main .content .publish ul li{
+	width: 60px;
+	height: 21px;
+	line-height: 21px;
+	text-align: center;
+	padding: 0;
+	float: left;
+	background: url("../img/travelnotes/abg.gif") no-repeat;
+}
+.main .content .publish ul li a{
+	font-size: 12px;
+}
+/*小火箭*/
+.rocket{
+	width: 50px;
+	height: 77px;
+	position: fixed;
+	right: 0;
+	bottom: 200px;
+	display: none;
+	background: url('../img/travelnotes/rocket.gif') no-repeat;
+}

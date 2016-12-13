@@ -1,0 +1,307 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+.page7_main_bg{
+	width: 100%;
+	/*float: left;*/
+	/*background-color: red;*/
+	background-image: url(../img/page7/page7_bg2.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+.page7_main{
+	width: 964px;
+	padding-top: 20px;
+	overflow: hidden;
+	background-color: white;
+	opacity: 0.8;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+
+.page7_main_left{
+	border: 1px solid black;
+	width: 195px;
+	/*height: auto;*/
+	float: left;
+	overflow: hidden;
+	margin-top: 100px;
+	margin-left: 10px;
+	background-color: #E6F2E7;
+}
+.page7_main_left ul{
+	width: 195px;
+	float: left;
+}
+.page7_main_left ul li{
+	border-bottom: 1px solid black;
+	width: 100%;
+	text-align:center;
+	float: left;
+	cursor: pointer;
+	/*margin: auto;*/
+}
+.page7_main_left ul li a{
+	/*width: 195px;*/
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: black;
+}
+.page7_main_left ul li:hover{
+	background-color: #CA4E94;
+	
+}
+.page7_main_left ul li a:hover{
+	color:#00FFFF ;
+}
+
+.page7_main_middle_top{
+	width: 600px;
+	height:80px;
+	background-image: url(../img/page7/page7_middle_top_bg.jpg);
+	background-repeat: repeat-y;
+	background-size: 100% 100%;
+	float: left;
+	margin-left: 20px;
+	/*overflow: hidden;*/
+	/*text-align: center;*/
+}
+.page7_main_middle_top h1{
+	width:100%
+	float: left;
+	font-size: 40px;
+	padding-top: 10px;
+	line-height: 60px;
+	text-align: center;
+	color: deepskyblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+/*......................关于我们内容................*/
+.page7_about_content{
+	/*display: none;*/
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+.page7_about_content p{
+	font-size: 14px;
+	text-indent: 2em;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+.page7_about_content a{
+	text-decoration: none;
+	color: black;
+}
+.page7_about_content a:hover{
+	border-bottom: 1px solid black;
+}
+/*.....................联系我们内容.................*/
+.page7_connect_content{
+	display: none;
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+.page7_connect_content .server{
+	padding-top: 20px;
+}
+.page7_connect_content .other{
+	padding-top: 20px;
+}
+.page7_connect_content span{
+	padding-top: 20px;
+	line-height: 30px;
+}
+.page7_connect_content .ditu{
+	width: 320px;
+	float: left;
+	
+}
+.page7_connect_content .ditu2{
+	width: 320px;
+	float: right;
+}
+
+.page7_connect_content a{
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+/*.........................诚聘英才................*/
+.page7_advertis_content{
+	display: none;
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	/*line-height: 30px;*/
+}
+.page7_writer{
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+.page7_market{
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+.page7_desigen{
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+.page7_writer p{
+	font-size: 14px;
+}
+
+.page7_market{
+	font-size: 14px;
+}
+
+.page7_desigen{
+	font-size: 14px;
+}
+/*...................合作伙伴内容...................*/
+.page7_friend_content{
+	display: none;
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+.page7_friend_content a{
+	text-decoration: none;
+	color: black;
+}
+
+.page7_friend_content a:hover{
+	color: red;
+}
+
+.page7_trval_ju{
+	line-height: 30px;
+	/*padding-right: 20px;*/
+}
+.page7_trval_ju ul li{
+	width: 250px;
+	float: left;
+	line-height: 30px;
+	display: inline-block;
+}
+.page7_trval_ju h3{
+	padding-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+.page7_trval_web{
+	line-height: 30px;
+}
+.page7_trval_web ul li{
+	width: 150px;
+	float: left;
+	line-height: 30px;
+	display: inline-block;
+}
+.page7_trval_web h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+.page7_joint_work{
+	line-height: 30px;
+}
+.page7_joint_work ul li{
+	width: 150px;
+	float: left;
+	line-height: 30px;
+	/*padding-right: 20px;*/
+	display: inline-block;
+}
+.page7_joint_work h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	float: left;
+}
+/*.....................隐私保护内容.................*/
+.page7_protect_content{
+	display: none;
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+.page7_protect_content h3{
+padding-top: 20px;
+/*padding-bottom: 20px;*/
+}
+.page7_protect_content p{
+	font-size: 14px;
+	line-height: 30px;
+}
+/*.......................用户协议内容....................*/
+.page7_user_content{
+	display: none;
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+.page7_user_content h3{
+	padding-top: 20px;
+}
+.page7_user_content p{
+	font-size: 14px;
+	line-height: 30px;
+}
+/*........................版权声明内容...................*/
+.page7_copyright_content{
+	display: none;
+	width: 650px;
+	height: auto;
+	border: 1px solid black;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+.page7_copyright_content h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.page7_copyright_content p{
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 30px;
+}

@@ -1,0 +1,390 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+
+.newsLetter_bopu_wrap{
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.newsLetter_bopu_middle{
+	width: 964px;
+	background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*................................波普之上标题样式..........................*/
+.newsLetter_bopu_slide{
+	width: 920px;
+	/*height: 53px;*/
+	height: auto;
+	margin: 0 auto;
+	padding-top: 15px;
+	line-height: 22px;
+}
+.newsLetter_bopu_slide a{
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+}
+.newsLetter_bopu_slide span{
+	font-size: 13px;
+}
+.newsLetter_bopu_titleAndShare{
+	width: 920px;
+	height: 54px;
+	margin: 0 auto;
+}
+.newsLetter_bopu_titleAndShare span{
+	font-size: 20px;
+	float: left;
+	color: #23904F;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.newsLetter_bopu_share{
+	width: 31%;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.newsLetter_bopu_share a:nth-child(1){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_wechat.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(2){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_qqSpace.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(3){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_sina.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(4){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_tencent.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(5){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_happy.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(6){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_douban.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(7){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_tencentFriend.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(8){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_qqFriend.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_bopu_share a:nth-child(9){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_more.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+/*............................波普之上活动具体安排.........................*/
+.newsLetter_bopu_fixed{
+	width: 920px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-left: 22px;
+	margin-right: 22px;
+	height: auto;
+	border-top: 1px dashed #666666;
+	border-bottom: 1px dashed #666666;
+	font-size: 14px;
+	line-height: 30px;
+	float: left;
+	overflow: hidden;
+}
+/*...............................波普之上相关标签.........................*/
+.newsLetter_bopu_related{
+	width: 920px;
+	height: 43px;
+	float: left;
+	margin-top: 10px;
+	margin-left:22px;
+	margin-right: 22px;
+}
+.newsLetter_bopu_related ul li {
+	display: inline-block;
+	font-size: 14px;
+	/*text-align: center;*/
+}
+.newsLetter_bopu_related ul li a{
+	text-decoration: none;
+	color: #666666;
+	padding:5px 10px 5px 10px;
+	background-color: #f4f4f8;
+	margin-right: 2px;
+}
+.newsLetter_bopu_related ul li a:hover{
+	color:white;
+	background-color: #ee6517;
+}
+/*.................................波普之上主体内容........................*/
+.newsLetter_bopu_main{
+	width: 920px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 22px;
+	margin-right: 22px;
+	overflow: hidden;
+}
+/*................................波普之上介绍..............................*/
+.newsLetter_bopu_main_img1{
+	/*padding-top: 14px;*/
+	padding-bottom: 14px;
+	width: 499px;
+	height: 599px;
+	margin: 0 auto;
+	text-align: center;
+}
+.newsLetter_bopu_main_img1 img{
+	width: 100%;
+}
+.newsLetter_bopu_main_bopuBrief{
+	width: 100%;
+	height: 104px;
+	/*float: left;*/
+	margin-top: 14px;
+	margin-bottom:14px ;
+	/*overflow: hidden;*/
+}
+.newsLetter_bopu_main_bopuBrief p{
+	font-size: 14px;
+	text-align: left;
+	color: #E56600;
+	/*margin-top: 14px;*/
+	line-height: 26px;
+}
+/*...................................展览介绍.............................*/
+.newsLetter_bopu_main_img2{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+.newsLetter_bopu_main_img2 img{
+	width: 100%;
+}
+.newsLetter_bopu_main_bopuBrief2 p:nth-child(1){
+	text-align: center;
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+.newsLetter_bopu_main_bopuBrief2 p:nth-child(2){
+	font-size: 14px;
+	line-height: 26px;
+	color: #666666;
+}
+/*.................................第一个展览..............................*/
+.newsLetter_bopu_main_img3{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+.newsLetter_bopu_main_img3 img{
+	width: 100%;
+}
+.newsLetter_bopu_main_bopuBrief3 p{
+	font-size: 14px;
+	line-height: 26px;
+}
+/*...................................第二个展览............................*/
+.newsLetter_bopu_main_img4{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+.newsLetter_bopu_main_img4 img{
+	width: 100%;
+}
+.newsLetter_bopu_main_bopuBrief4 p{
+	font-size: 14px;
+	line-height: 26px;
+}
+/*...................................第三个展览............................*/
+.newsLetter_bopu_main_img5{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+.newsLetter_bopu_main_img5 img{
+	width: 100%;
+}
+.newsLetter_bopu_main_bopuBrief5 p{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+/*..................................策划人介绍.............................*/
+.newsLetter_bopu_main_img6{
+	width: 600px;
+	height: 400px;
+	margin: 0 auto;
+}
+.newsLetter_bopu_main_img6 img{
+	width: 100%;
+}
+.newsLetter_bopu_main_bopuBrief6 p{
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 14px;
+	margin-bottom: 14px;
+	text-align: center;
+}
+/*.................................第一个策划人............................*/
+.newsLetter_bopu_main_bopuBrief6_daifo{
+	margin-bottom: 37px;
+}
+.newsLetter_bopu_main_bopuBrief6_daifo span{
+	font-size: 14px;
+	color: #E56600;
+	line-height: 26px;
+	text-align: left;
+}
+.newsLetter_bopu_main_bopuBrief6_daifo p{
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+}
+/*..................................第二个策划人...........................*/
+.newsLetter_bopu_main_bopuBrief6_smith{
+	margin-bottom: 100px;
+}
+.newsLetter_bopu_main_bopuBrief6_smith span{
+	font-size: 14px;
+	color: #E56600;
+	line-height: 26px;
+	text-align: left;
+}
+.newsLetter_bopu_main_bopuBrief6_smith p{
+	font-size: 14px;
+	line-height: 26px;
+	text-align: left;
+}
+/*...............................余德耀美术馆............................*/
+.newsLetter_bopu_map{
+	/*float: left;*/
+	overflow: hidden;
+	width: 920px;
+	height: 298px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+.newsLetter_bopu_map img{
+	padding-top: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.newsLetter_bopu_map a{
+	text-decoration: none;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 18px;
+	line-height: 18px;
+	color: #990000;
+}
+.newsLetter_bopu_map a:hover{
+	color: #666666;
+}
+/*..................................相关信息...............................*/
+.newsLetter_bopu_rel{
+	width: 920px;
+	/*height: 133px;*/
+	/*margin: 0 auto;*/
+	margin-left: 20px;
+	margin-top: 30px;
+	border-top: 1px dashed #666666;
+	margin-bottom: 67px;
+}
+.newsLetter_bopu_rel p{
+	font-weight: bold;
+	padding-top: 20px;
+	font-size: 16px;
+	color: #FF6600;
+	margin-bottom: 25px;
+}
+.newsLetter_bopu_rel ul li{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.newsLetter_bopu_rel ul li a{
+	text-decoration: none;
+}
+.newsLetter_bopu_rel ul li:nth-child(1) a{
+	color: #FF6600;
+	font-size: 14px;
+	line-height: 26px;
+}
+.newsLetter_bopu_rel ul li:nth-child(2) a{
+	font-size: 13px;
+	line-height: 26px;
+	color: #666666;
+}

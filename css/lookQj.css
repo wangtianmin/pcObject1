@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.p2_wrap{
+	width: 100%;
+	background: url('../img/page_2/p2_fly.png') no-repeat;
+	background-position: 50% -200px;
+	background-color: #e6f2e7;
+	position: relative;
+	overflow: hidden;
+}
+.p2_middle{
+	width: 965px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+/*地图*/
+.p2_middle .p2_map{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*banner图*/
+.p2_middle .p2_banner{
+	width: 966px;
+	height: 457px;
+	position: relative;
+	margin-bottom: 10px;
+}
+.p2_middle .p2_banner .middle{
+	width: 9999999999999px;
+	height: 442px;
+	box-shadow: 0 5px 5px gray;
+	position: absolute;
+	left: -966px;
+}
+.p2_middle .p2_banner .middle a{
+	float: left;
+}
+.p2_middle .p2_banner .middle a img{
+	width: 966px;
+	height: 442px;
+}	
+.p2_middle .p2_banner .left{
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+	left: 30px;
+	bottom: 10px;
+}
+.p2_middle .p2_banner .right{
+	position: absolute;
+	width: 50px;
+	height: 50px;	
+	right: 30px;
+	bottom: 10px;
+}
+
+/*tabe切换部分*/
+.p2_tabe{
+	width: 965px;
+	height: 350px;
+	position: relative;
+	margin-bottom: 10px;																								
+}
+.p2_middle .p2_tabe .left{
+	position: absolute;
+	left: 0;
+}
+.p2_middle .p2_tabe .right{
+	position: absolute;
+	right: 0;
+}
+.p2_middle .p2_tabe .box1{
+	float: left;
+	width: 530px;
+	height: 230px;
+	margin-left: 55px;
+	margin-top: 30px;
+}
+.p2_middle .p2_tabe .con{
+	position: absolute;
+	overflow: hidden;
+}
+.p2_middle .p2_tabe .box1 .size1{
+	width: 150px;
+	height: 100px;
+	background-color: white;	
+}
+.p2_middle .p2_tabe .box1 .size2{
+	width: 200px;
+	height: 120px;
+	background-color: white;	
+}
+.p2_middle .p2_tabe .box1 .size3{
+	width: 148px;
+	height: 98px;
+	border: 1px solid #ccc;
+}
+.p2_middle .p2_tabe .box2{
+	float: left;
+	width: 320px;
+	height: 310px;
+}
+.p2_middle .p2_tabe .box2 .size3{
+	width: 148px;
+	height: 98px;
+	border: 1px solid #ccc;
+}
+.p2_middle .p2_tabe .box2 .size4{
+	width: 118px;
+	height: 198px;
+	border: 1px solid #ccc;
+}
+.p2_middle .p2_tabe .con div a{
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.p2_middle .p2_tabe .con div a h4{
+	position: absolute;
+	bottom: 0;
+	font-family: "微软雅黑";
+    font-size: 12px;
+    line-height: 25px;
+    width: 100%;
+    text-align: center;
+    display: none;
+    height: 25px;
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.p2_middle .p2_tabe .con .more{
+	color: #7B932B;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+/*tab切换*/
+.p2_middle .p2_tabe .list{
+	overflow: hidden;
+	width: 100%;
+	height: 28px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: #669900; 
+	position: absolute;
+	bottom: 0;
+}
+.p2_middle .p2_tabe .list li{
+	width: 60px;
+	height: 25px;
+	float: left;
+	background: url('../img/page_2/p2_label.png') no-repeat;
+}
+.p2_middle .p2_tabe .list li.active{
+	background: url('../img/page_2/p2_label2.png') no-repeat;
+	color: white;
+}
+.p2_middle .p2_tabe .list li a{
+	display: block;
+	width: 60px;
+	height: 25px;
+	font-family: "黑体";
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    color: inherit;
+}
+
+
+/*热门景点*/
+.p2_middle .p2_hotspots{
+	width: 965px;
+	height: 530px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.p2_middle .p2_hotspots h3{
+	background-color: #B3DDD7;
+    font-family: "微软雅黑";
+    line-height: 30px;
+    font-size: 14px;
+    width: 100px;
+    text-align: center;
+    color: #666666;
+    	margin-bottom: 3px;
+}
+.p2_middle .p2_hotspots .spots_list{
+	width: 965px;
+	overflow: hidden;
+}
+
+.p2_middle .p2_hotspots .spots_list li{
+	
+	width: 233px;
+	height: 232px;
+	float: left;
+	position: relative;
+	margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.p2_middle .p2_hotspots .spots_list li h4{
+	position: absolute;
+	bottom: 0;
+	font-family: "微软雅黑";
+    font-size: 12px;
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    display: none;
+}
+
+/*在线咨询*/
+.p2_zixun{
+	width: 110px;
+	height: 40px;
+	position: fixed;
+	right: -60px;
+	bottom: 100px;
+	background-color: #c4dbb4;
+	transition: all 0.5s;
+}
+.p2_zixun:hover{
+	right: 0;
+}
+.p2_zixun a{
+	display: block;
+	width: 110px;
+	height: 40px;
+	line-height: 40px;
+}
+.p2_zixun a img,
+.p2_zixun a span{
+	float: left;
+}
+.p2_zixun span{
+	font-family: "微软雅黑";
+    font-size: 12px;
+    color: #669900;
+}

@@ -1,0 +1,134 @@
+.xuhui_recommend_main a{
+	font-family: "宋体";
+	color: #666;
+	font-size: 12px;
+    line-height: 22px;
+}
+.xuhui_recommend_main{
+	width: 965px;
+	position: relative;
+	margin: 0 auto;
+}
+.xuhui_recommend_main .content{
+	width: 925px;
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xuhui_recommend_main .content .left{
+	width: 600px;
+	float: left;
+}
+.xuhui_recommend_main .content .left .title{
+	width: 600px;
+	height: 50px;
+	line-height: 50px;
+	font-family: "宋体";
+	color: #666;
+	font-size: 13px;
+}
+.xuhui_recommend_main .content .left .title a{
+	font-family: "宋体";
+	color: #666;
+	font-size: 12px;
+    line-height: 22px;
+}
+.xuhui_recommend_main .content .left .spots{
+	width: 600px;
+	padding-top: 10px;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: dashed #333 1px;
+    overflow: hidden;
+}
+.xuhui_recommend_main .content .left .spots li a{
+	font-family: "宋体";
+	color: #666;
+	font-size: 12px;
+    line-height: 22px;
+}
+.xuhui_recommend_main .content .left .spots li a img{
+	width: 115px;
+	height: 140px;
+}
+
+.xuhui_recommend_main .content .left .spots li .name{
+	font-size: 16px;
+    color: #23904f;
+    font-family: "Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+}
+.xuhui_recommend_main .content .left .spots li:nth-child(1){
+	width: 115px;
+	height: 140px;
+	float: left;
+	font-size: 0;
+}
+.xuhui_recommend_main .content .left .spots li:nth-child(2){
+	width: 450px;
+	
+	float: right;
+}
+
+/*右边的内容*/
+.xuhui_recommend_main .content .right{
+	width: 282px;
+	float: left;
+	margin-left: 30px;
+}
+.xuhui_recommend_main .content .right .share{
+	width: 280px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+.xuhui_recommend_main .content .right .share li{
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-right: 5px;
+}
+.xuhui_recommend_main .content .right .share li a{
+	display: block;
+	width: 25px;
+	height: 25px;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(1){
+	background: url("../img/db_xuhui/share.png") 0 -1612px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(2){
+	background: url("../img/db_xuhui/share.png") 0 -52px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(3){
+	background: url("../img/db_xuhui/share.png") 0 -104px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(4){
+	background: url("../img/db_xuhui/share.png") 0 -260px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(5){
+	background: url("../img/db_xuhui/share.png") 0 -312px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(6){
+	background: url("../img/db_xuhui/share.png") 0 -468px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(7){
+	background: url("../img/db_xuhui/share.png") 0 -364px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(8){
+	background: url("../img/db_xuhui/share.png") 0 -2652px no-repeat;
+}
+.xuhui_recommend_main .content .right .share li:nth-child(9){
+	background: url("../img/db_xuhui/share.png") 0 0 no-repeat;
+}
+
+.xuhui_recommend_main .content .right .tupian{
+	width: 280px;
+	overflow: hidden;
+}
+.xuhui_recommend_main .content .right .tupian li{
+	width: 262px;
+	height: 268px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: #ccc;
+}

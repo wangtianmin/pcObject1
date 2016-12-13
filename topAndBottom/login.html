@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录页面</title>
+		<link rel="stylesheet" href="../css/loginRegister/login.css" />
+	</head>
+	<body>
+		<div id="login_top">
+			<div>
+				<div id="ltLeft">
+					<img src="../img/login.jpg" alt="" />
+					<label for="login_user">用户名</label>
+					<input id="login_user" type="text" name="login_user" /><span><br/></span>
+					<label for="login_pass">密码</label>
+					<input id="login_pass" type="password" name="login_pass" /><span><br/></span>
+					<input id="login_check" type="checkbox" name="login_check" /><span>下次自动登录</span>
+					<input id="login_denglu" type="submit" value="登录" />
+					<a href="###">忘记密码?</a>
+					<p>你也可以使用其他账号登录：</p>
+					<a href="###"></a>
+					<a href="###"></a>
+					<p>如遇登录异常问题可以联系我们&nbsp;&nbsp;&nbsp;021-64339773</p>
+				</div>
+				<div id="ltXian"></div>
+				<div id="ltRight">
+					<p>没有千景账号?</p>
+					<a href="register.php">注册</a>
+				</div>
+			</div>
+		</div>
+		<div id="login_bottom">
+			<p>联系我们 021-64339773</p>
+			<p>沪ICP备12040923号 COPYRIGHT©2012 ALL RIGHTS RESERVED 版权所有 上海市徐汇区旅游公共服务中心
+</p>
+		</div>
+	</body>
+	<script src="../js/ajax.js"></script>
+	<script>
+		var login_user=document.getElementById("login_user");
+		var login_pass=document.getElementById("login_pass");
+		var login_denglu=document.getElementById("login_denglu");
+		var login_check=document.getElementById("login_check");
+		login_denglu.onclick=function(){
+            var checkBol=login_check.checked;
+			if(login_user.value==""||login_pass.value==""){
+				alert("用户名或密码不能为空");
+			}else{
+				fnAjax({
+					url:"userinfo_handle.php",
+					sendType:"post",
+					data:{
+						user:login_user.value,
+						pass:login_pass.value,
+						act:"login"
+					},
+					succFn:function(str){
+						alert(str);
+						if(str=="登陆成功"){
+                            if(!checkBol){
+								window.sessionStorage.setItem("user",login_user.value);
+                            }else{
+                            	window.localStorage.setItem("user",login_user.value);
+                            }
+							window.location.href="../home.php?user="+login_user.value;
+						}
+						
+					}
+				});
+			}	
+		}
+	</script>
+</html>

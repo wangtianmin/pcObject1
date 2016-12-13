@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+
+.newsLetter_gallery_wrap{
+	width: 100%;
+	background-color: #f6f9f9;
+}
+.newsLetter_gallery_middle{
+	width: 964px;
+	background-color: white;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+/*................................画廊标题样式..........................*/
+.newsLetter_gallery_slide{
+	width: 920px;
+	/*height: 53px;*/
+	height: auto;
+	margin: 0 auto;
+	padding-top: 15px;
+	line-height: 22px;
+}
+.newsLetter_gallery_slide a{
+	font-size: 13px;
+	color: #666666;
+	text-decoration: none;
+}
+.newsLetter_gallery_slide span{
+	font-size: 13px;
+}
+.newsLetter_gallery_titleAndShare{
+	width: 920px;
+	height: 54px;
+	margin: 0 auto;
+}
+.newsLetter_gallery_titleAndShare span{
+	font-size: 20px;
+	float: left;
+	color: #23904F;
+	line-height: 24px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.newsLetter_gallery_share{
+	width: 31%;
+	float: right;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.newsLetter_gallery_share a:nth-child(1){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_wechat.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(2){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_qqSpace.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(3){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_sina.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(4){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_tencent.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(5){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_happy.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(6){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_douban.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(7){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_tencentFriend.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(8){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_qqFriend.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+.newsLetter_gallery_share a:nth-child(9){
+	float: left;
+    font-size: 18px;
+    padding-left: 25px;
+    line-height: 24px;
+    height: 24px;
+	background-image: url(../img/newsLetter/newsLetter_more.png);
+	background-repeat: no-repeat;
+	margin-right: 6px;
+}
+/*............................画廊活动具体安排.........................*/
+.newsLetter_gallery_fixed{
+	width: 920px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-left: 22px;
+	margin-right: 22px;
+	height: auto;
+	border-top: 1px dashed #666666;
+	border-bottom: 1px dashed #666666;
+	font-size: 14px;
+	line-height: 30px;
+	float: left;
+	overflow: hidden;
+}
+/*...............................画廊相关标签.........................*/
+.newsLetter_gallery_related{
+	width: 920px;
+	height: 43px;
+	float: left;
+	margin-top: 10px;
+	margin-left:22px;
+	margin-right: 22px;
+}
+.newsLetter_gallery_related ul li {
+	display: inline-block;
+	font-size: 14px;
+	/*text-align: center;*/
+}
+.newsLetter_gallery_related ul li a{
+	text-decoration: none;
+	color: #666666;
+	padding:5px 10px 5px 10px;
+	background-color: #f4f4f8;
+	margin-right: 2px;
+}
+.newsLetter_gallery_related ul li a:hover{
+	color:white;
+	background-color: #ee6517;
+}
+/*................................画廊主体内容..............................*/
+.newsLetter_gallery_main{
+	width: 920px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 22px;
+	margin-right: 22px;
+	margin-bottom: 40px;
+	overflow: hidden;
+}
+.newsLetter_gallery_main p {
+	text-align: center;
+	font-size: 14px;
+	line-height:26px ;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+.newsLetter_gallery_main p:nth-child(1){
+	height: 559px;
+}
+.newsLetter_gallery_main p:nth-child(2){
+	text-align: left;
+}
+.newsLetter_gallery_main p:nth-child(3){
+	height: 600px;
+}
+.newsLetter_gallery_main p:nth-child(4) span{
+	color: #006600;
+	font-weight: bold;
+}
+.newsLetter_gallery_main p:nth-child(5){
+	text-align: left;
+}
+.newsLetter_gallery_main p:nth-child(6){
+	height: 401px;
+}
+.newsLetter_gallery_main p:nth-child(7) span{
+	color: #006600;
+	font-weight: bold;
+}
+.newsLetter_gallery_main p:nth-child(8){
+	margin-bottom: 0;
+}
+.newsLetter_gallery_main p:nth-child(9){
+	height: 556px;
+	margin-top: 0;
+}
+.newsLetter_gallery_main p:nth-child(10){
+	text-align: left;
+}
+.newsLetter_gallery_main p:nth-child(11){
+	height: 501px;
+}
+.newsLetter_gallery_main p:nth-child(12){
+	text-align: left;
+}
+.newsLetter_gallery_main p:nth-child(13){
+	height: 400px;
+}
+.newsLetter_gallery_main p:nth-child(15){
+	height: 300px;
+}
+.newsLetter_gallery_main p:nth-child(16){
+	text-align: left;
+}
+.newsLetter_gallery_main p:nth-child(17){
+	height: 532px;
+	margin-bottom: 0;
+}
+.newsLetter_gallery_main p:nth-child(18){
+	margin-top: 0;
+	text-align: left;
+}
+/*..................................画廊地址...............................*/
+.newsLetter_gallery_map{
+	/*float: left;*/
+	overflow: hidden;
+	width: 920px;
+	height: 298px;
+	background-color: #ccc;
+	margin: 0 auto;
+}
+.newsLetter_gallery_map img{
+	padding-top: 18px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+.newsLetter_gallery_map a{
+	text-decoration: none;
+	font-size: 12px;
+	text-align: left;
+	padding-left: 18px;
+	line-height: 18px;
+	color: #990000;
+}
+.newsLetter_gallery_map a:hover{
+	color: #666666;
+}

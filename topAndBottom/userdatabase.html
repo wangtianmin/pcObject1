@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/**********************个人设置***************************/
+			*{
+				padding: 0;	
+			}
+			.gerenshezhi {
+				width: 100vW;
+				height: 100vH;
+				background-color: white;
+				position: fixed;
+				left: 0;
+				top: 0;
+			}
+			
+			.gerenshezhi .geren_content {
+				width: 1000px;
+				height: 800px;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -500px;
+				margin-top: -400px;
+				background: url('../img/page_2/p2_infobg.jpg') no-repeat;
+				background-size: 100% 100%;
+			}
+			
+			.gerenshezhi .geren_content h2 {
+				text-align: center;
+			}
+			
+			.gerenshezhi .geren_content .info_list {
+				width: 1000px;
+				overflow: hidden;
+			}
+			
+			.gerenshezhi .geren_content .info_list li {
+				width: 998px;
+				border: 1px solid lightcoral;
+				float: left;
+				position: relative;
+				overflow: hidden;
+				font-size: 12px;
+			}
+			
+			.gerenshezhi .geren_content .info_list li div {
+				width: 479px;
+				padding: 10px;
+				float: left;
+				font-size: 12px;
+				line-height: 18px;
+			}
+			
+			.gerenshezhi .geren_content .info_list li div.active {
+				width: 478px;
+				padding: 10px;
+				border-right: 1px solid lightcoral;
+				float: left;
+			}
+			
+			.gerenshezhi .geren_content .info_list li span {
+				position: absolute;
+				left: 720px;
+				top: 42%;
+				display: none;
+			}
+			
+			.gerenshezhi .geren_content .info_list li input {
+				width: 200px;
+				height: 20px;
+				border: 1px solid rgb(204, 204, 204);
+				position: absolute;
+				top: 50%;
+				margin-left: 10px;
+				margin-top: -12px;
+			}
+			
+			.gerenshezhi .geren_content .info_list li input.active {
+				width: 25px;
+				height: 25px;
+				position: relative;
+				margin-left 20px;
+				margin-top: 8px;
+			}
+			
+			.gerenshezhi .geren_content .info_list li select {
+				position: relative;
+				margin-top: 10px;
+				margin-left: 10px;
+			}
+			
+			.gerenshezhi .geren_content .info_list li select.active {
+				display: none;
+			}
+			
+			#confirm {
+				width: 114px;
+				height: 41px;
+				background-color: darkcyan;
+				border: 0;
+				font-weight: bold;
+				position: absolute;
+				left: 300px;
+				bottom: 90px;
+				margin-left: -57px;
+				font-size: 30px;
+			}
+			#fanhui {
+				width: 150px;
+				height: 41px;
+				background-color: darkcyan;
+				font-weight: bold;
+				position: absolute;
+				left: 700px;
+				bottom: 90px;
+				margin-left: -57px;
+				font-size: 30px;
+				text-decoration: none;
+				text-align: center;
+				line-height: 41px;
+				color: black;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<div class="gerenshezhi">
+			<div class="geren_content">
+				<h2>用户信息表</h2>
+				<ul class="info_list">
+					<li>
+						<div class="active">用户名：</div>
+						<div id="user"></div>
+					</li>
+					<li>
+						<div class="active">Email地址：<br/>请输入有效的邮件地址，这将使您能找回密码以及用到论坛中的所有功能。 如<br/>xxx@yahoo.com.cn</div>
+						<input type="text" name="email" id="email" value="" />
+						<span>请输入邮箱地址</span>
+					</li>
+					<li>
+						<div class="active">真实姓名：<br/>请填写您的真实姓名，以便我们与您联系。</div>
+						<input type="text" name="xingm" id="xingm" value="" />
+						<span>请输入真实姓名</span>
+					</li>
+					<li>
+						<div class="active">性别：</div>
+						<input type="radio" name="sex" id="man" value="男" class="active" />
+						<label for="man">男(male)</label>
+						<input type="radio" name="sex" id="women" value="女" class="active" />
+						<label for="women">女(female)</label>
+					</li>
+					<li>
+						<div class="active">出生日期：<br/>格式：YYYY-MM-DD（如:2003-06-20）</div>
+						<input type="text" name="birth" id="birth" value="" />
+						<span>格式：YYYY-MM-DD（如:2003-06-20）</span>
+					</li>
+					<li>
+						<div class="active">身份证号：</div>
+						<input type="text" name="identity" id="identity" value="" />
+						<span>请输入标准18位身份证号码</span>
+					</li>
+					<li>
+						<div class="active">通信地址：</div>
+						<input type="text" name="adress" id="adress" value="" />
+						<span>请输入通信地址</span>
+					</li>
+					<li>
+						<div class="active">手机号：</div>
+						<input type="text" name="phone" id="phone" value="" />
+						<span>请输入手机号</span>
+					</li>
+					<li>
+						<div class="active">微信号：</div>
+						<input type="text" name="weixin" id="weixin" value="" />
+						<span>请输入微信号</span>
+					</li>
+					<li>
+						<div class="active">国家：</div>
+						<select name="country" id="country">
+							<option value="0">China,中国</option>
+							<option value="1">Canada,加拿大</option>
+							<option value="2">France,法国</option>
+							<option value="3">Italy,意大利</option>
+						</select>
+					</li>
+					<li>
+						<div class="active">城市：</div>
+
+						<select name="province" id="province">
+							<option value="0">江苏</option>
+							<option value="1">上海</option>
+							<option value="2">浙江</option>
+						</select>
+						省
+						<select name="city" class="city">
+							<option value="0">常熟</option>
+							<option value="1">常州</option>
+							<option value="2">淮安</option>
+							<option value="3">连云港</option>
+							<option value="4">南京</option>
+							<option value="5">苏州</option>
+						</select>
+						<select name="city" class="city active">
+							<option value="0">松江</option>
+							<option value="1">黄埔</option>
+							<option value="2">徐汇</option>
+						</select>
+						<select name="city" class="city active">
+							<option value="0">淳安</option>
+							<option value="1">富阳</option>
+							<option value="2">杭州</option>
+							<option value="3">宁波</option>
+							<option value="4">绍兴</option>
+							<option value="5">温州</option>
+						</select>
+					</li>
+					<li>
+						<div class="active">邮编：</div>
+						<input type="text" name="postcode" id="postcode" value="" />
+						<span>请输入所生活的城市的邮编</span>
+					</li>
+				</ul>
+				<input type="button" name="confirm" id="confirm" value="确定" />
+				<a href="../home.php" id="fanhui">返回首页</a>
+			</div>
+		</div>
+	</body>
+    <script src="../js/ajax.js"></script>
+    <script>
+    	/**********************个人设置***************************/
+var cha = document.querySelector(".cha");
+var gerenshezhi = document.querySelector(".gerenshezhi");
+var country = document.getElementById("country");
+var province = document.getElementById("province");
+var citys = document.getElementsByClassName("city");
+
+
+var option1 =country.options;
+var option2 =province.options;
+var option3 =citys[0].options;
+var option4 =citys[1].options;
+var option5 =citys[2].options;
+
+var state;//国家
+state = option1[country.value].innerHTML;
+country.onchange = function(){
+	state = option1[country.value].innerHTML;
+}
+
+//省份和城市的选择
+var  provinces = option2[province.value].innerHTML;//省份
+var town = option3[citys[0].value].innerHTML;//城市
+var hometown = provinces+"-"+town;//省份和城市
+province.onchange = function(){
+	provinces = option2[province.value].innerHTML;
+	for (var i=0;i<citys.length;i++) {
+		citys[i].index = i;
+		citys[i].setAttribute("class","city active");
+		
+		citys[i].onchange = function(){
+			if(this.index == 0){
+				town = option3[citys[this.index].value].innerHTML;
+			}else if(this.index == 1){
+				town = option4[citys[this.index].value].innerHTML;
+			}else{
+				town = option5[citys[this.index].value].innerHTML;
+			}
+			hometown = provinces+"-"+town;
+		}
+	}
+	
+	citys[this.value].setAttribute("class","city");
+}
+
+//个人信息的上传到数据库
+var confirm = document.getElementById("confirm");
+var user = document.getElementById("user");
+var email = document.getElementById("email");
+var xingm = document.getElementById("xingm");
+var sexs = document.getElementsByName("sex");
+var birth = document.getElementById("birth");
+var identity = document.getElementById("identity");
+var adress = document.getElementById("adress");
+var phone = document.getElementById("phone");
+var weixin = document.getElementById("weixin");
+var postcode = document.getElementById("postcode");
+var spans = document.querySelectorAll(".info_list span");
+
+var userinfo;
+var emailinfo;
+var xingminfo;
+var sexinfo;
+var birthinfo;
+var identityinfo;
+var adressinfo;
+var phoneinfo;
+var weixininfo;
+var countryinfo;
+var cityinfo;
+var postcodeinfo;
+
+for (var i=0;i<sexs.length;i++) {
+	sexs[i].index = i;	
+	sexs[i].onclick = function(){
+		sexinfo = sexs[this.index].value;
+	}
+}
+
+user.innerHTML=window.localStorage.getItem("user")||window.sessionStorage.getItem("user");
+phone.value=window.sessionStorage.getItem("phone");
+var emailbol = false;
+var xingmbol = false;
+var birthbol = false;
+var identitybol = false;
+var adressbol = false;
+var weixinbol = false;
+var postcodebol = false;
+
+email.onfocus = function(){
+	email.style.borderColor = "";
+	spans[0].style.display = "block";
+	spans[0].style.color = "black";
+}
+email.onblur = function(){
+	//判断邮箱的正确性
+	if(email.value == ""){
+		email.style.borderColor = "red";
+		spans[0].style.color = "red";
+		spans[0].innerHTML = "邮箱不能为空";
+	}else if(!(/^([a-z0-9]*[-_]?[a-z0-9]+)*@([a-z0-9]*[-_]?[a-z0-9]+)+[\.][a-z]{2,3}([\.][a-z]{2})?$/i.test(email.value))){
+		email.style.borderColor = "red";
+		spans[0].style.color = "red";
+		spans[0].innerHTML = "请输入有效的电子邮件地址.";
+	}else{
+		email.style.borderColor = "";
+		spans[0].style.display = "none";
+		emailbol = true;
+	}
+}
+xingm.onfocus = function(){
+	xingm.style.borderColor = "";
+	spans[1].style.display = "block";
+	spans[1].style.color = "black";
+}
+xingm.onblur = function(){
+	//判断姓名书写的正确性
+	if(xingm.value ==""){
+		xingm.style.borderColor = "red";
+		spans[1].style.color = "red";
+		spans[1].innerHTML = "姓名不能为空";
+	}else if((/^([\u4e00-\u9fa5]+|([a-z]+\s?)+)$/g).test(xingm.value)){
+		xingm.style.borderColor = "";
+		spans[1].style.display = "none";
+		xingmbol = true;
+	}
+}
+birth.onfocus = function(){
+	birth.style.borderColor = "";
+	spans[2].style.display = "block";
+	spans[2].style.color = "black";
+}
+birth.onblur = function(){
+	//判断出生日期格式的正确性
+	if(birth.value == ""){
+		birth.style.borderColor = "red";
+		spans[2].style.color = "red";
+		spans[2].innerHTML = "出生日期不能为空";
+	}else if(!(/^[\d]{4}[-\ ][\d]{1,2}[-\ ][\d]{1,2}$/).test(birth.value)){
+		birth.style.borderColor = "red";
+		spans[2].style.color = "red";
+		spans[2].innerHTML = "请输入正确地出生日期";
+	}else{
+		birth.style.borderColor = "";
+		spans[2].style.display = "none";
+		birthbol = true;
+	}
+}
+identity.onfocus = function(){
+	identity.style.borderColor = "";
+	spans[3].style.display = "block";
+	spans[3].style.color = "black";
+}
+identity.onblur = function(){
+	//判断身份证号的格式正确性
+	if(identity.value.length<18 || !(/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/.test(identity.value))){
+		identity.style.borderColor = "red";
+		spans[3].style.color = "red";
+		spans[3].innerHTML ="请输入正确的身份证号码。";
+	}else{
+		identity.style.borderColor = "";
+		spans[3].style.display = "none";
+		identitybol = true;
+	}
+}
+adress.onfocus = function(){
+	adress.style.borderColor = "";
+	spans[4].style.display = "block";
+	spans[4].style.color = "black";
+}
+adress.onblur = function(){
+	//判断通信地址不能为空
+	if(adress.value == ""){
+		adress.style.borderColor = "red";
+		spans[4].style.color = "red";
+		spans[4].innerHTML ="通信地址不能为空";
+	}else{
+		adress.style.borderColor = "";
+		spans[4].style.display = "none";
+		adressbol = true;
+	}
+}
+
+weixin.onfocus = function(){
+	weixin.style.borderColor = "";
+	spans[6].style.display = "block";
+	spans[6].style.color = "black";
+}
+weixin.onblur = function(){
+	//判断微信号不能为空
+	if(weixin.value == ""){
+		weixin.style.borderColor = "red";
+		spans[6].style.color = "red";
+		spans[6].innerHTML ="微信号不能为空";
+	}else{
+		weixin.style.borderColor = "";
+		spans[6].style.display = "none";
+		weixinbol = true;
+	}
+}
+postcode.onfocus = function(){
+	postcode.style.borderColor = "";
+	spans[7].style.display = "block";
+	spans[7].style.color = "black";
+}
+postcode.onblur = function(){
+	//判断邮编不能为空
+	if(postcode.value == ""){
+		postcode.style.borderColor = "red";
+		spans[7].style.color = "red";
+		spans[7].innerHTML ="邮编不能为空";
+	}else{
+		postcode.style.borderColor = "";
+		spans[7].style.display = "none";
+		postcodebol = true;
+	}
+}
+
+confirm.onclick = function(){
+    
+    userinfo = user.innerHTML;
+	emailinfo = email.value;
+	xingminfo = xingm.value;
+	birthinfo = birth.value;
+	identityinfo = identity.value;
+	adressinfo = adress.value;
+	phoneinfo = phone.value;
+	weixininfo = weixin.value;
+    countryinfo = state;
+	cityinfo = hometown;
+	postcodeinfo = postcode.value;
+	
+	
+	if(emailbol && xingmbol && birthbol && identitybol && adressbol && weixinbol && postcodebol) {
+        gerenxinxiFn();
+    }
+    
+}
+
+
+
+function gerenxinxiFn(){
+	fnAjax({
+		url:"userinfo_handle.php",
+		sendType:"post",
+		data:{
+			act:"info",
+			user:userinfo,
+			email:emailinfo,
+			xingm:xingminfo,
+			sex:sexinfo,
+			birth:birthinfo,
+			identity:identityinfo,
+			adress:adressinfo,
+			phone:phoneinfo,
+			weixin:weixininfo,
+			country:countryinfo,
+			city:cityinfo,
+			postcode:postcodeinfo
+		},
+		succFn:function(str){
+			alert(str);
+			window.location.href = "../home.php";
+		}
+	});
+}
+
+    </script>
+</html>

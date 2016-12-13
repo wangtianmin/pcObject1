@@ -1,0 +1,164 @@
+*{margin:0;padding:0}
+body{
+	background-color: rgb(244,249,242);
+}
+#register_top{
+	max-width:1000px;
+	overflow: hidden;
+	margin:0 auto;
+	background-image:url("../../img/logo1.jpg"),url("../../img/logintopbg.jpg"),url("../../img/logo1.jpg");
+	background-repeat: no-repeat;
+	padding-top:115px;
+}
+#reg_label1,#reg_label2,#reg_label3,#reg_label4,#reg_label5{
+	font-size: 13px;
+	color:darkslategray;
+	
+}
+#reg_user,#reg_pass,#reg_passAgain,#reg_phone{
+	width:360px;
+	height:36px;
+	border:1px solid rgb(204,204,204);
+	border-radius:5px;
+	font-size: 16px;
+	margin-left: 51px;
+}
+#reg_user{
+	margin-left: 64px;
+}
+#reg_pass{
+	margin-left: 77px;
+}
+#reg_yanzhengma{
+	width:90px;
+	height:36px;
+	border:1px solid rgb(204,204,204);
+	border-radius:5px;
+	font-size: 16px;
+	margin-left: 64px;
+}
+#yanzheng{
+	vertical-align: middle;
+	margin-left: 9px;
+}
+#noknow{
+	text-decoration:none;
+	font-size: 13px;
+	color:darkslategray;
+}
+#reg_btn{
+	width:109px;
+	height:35px;
+	background-color: rgb(73,142,97);
+	color:white;
+	cursor:pointer;
+	outline: none;
+	border-radius:5px;
+	font-size: 17px;
+	margin-top: 21px;
+	margin-left: 116px;
+}
+.reg_span{
+	color:darkslategray;
+	font-size: 12px;
+	margin-left: 5px;
+	display: none;
+}
+#reg_left{
+	width: 780px;
+	border-right:1px solid rgb(204,204,204);
+	float: left;
+}
+#reg_right{
+	float:right;
+	padding-top: 20px;
+}
+#reg_tishi{
+	font-size: 12px;
+	color:rgb(204,204,204);
+}
+#reg_login{
+	text-decoration: none;
+	font-size: 17px;
+	color:green;
+	display: block;
+	width:72px;
+	height:33px;
+	background-color: rgb(247,247,247);
+	border:1px solid rgb(204,204,204);
+	border-radius:5px;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 18px;
+	margin-bottom: 32px;
+}
+#reg_tishi2{
+	font-size: 12px;
+	color:rgb(204,204,204);
+}
+#reg_weibo,#reg_qq{
+	display: block;
+	width:93px;
+	height:30px;
+	background: url("../../img/weibo.jpg");
+	margin-top: 10px;
+}
+#reg_qq{
+	background: url("../../img/qq.jpg");
+}
+#register_bottom{
+	width:95vw;
+	height:82px;
+	background-color: white;
+	margin: 0 auto;
+	padding-top: 40px;
+	margin-top: 48px;
+}
+#register_bottom>p{
+	text-align: center;
+	font-size: 12px;
+}
+#register_bottom>p:nth-child(2){
+	margin-top: 20px;
+}
+@media screen and (max-width:1160px) and (min-width:725px){
+	#reg_left{
+		width:74.3%;
+	}
+} 
+@media screen and (max-width:725px) and (min-width:550px){
+	#reg_left{
+		width:68%;
+	}
+	#reg_right{
+		padding-right:5vw;
+	}
+	#reg_user,#reg_pass,#reg_passAgain,#reg_phone{
+		width:41.9vw;
+	}
+}
+@media screen and (max-width:550px){
+	#reg_user,#reg_pass,#reg_passAgain,#reg_phone{
+		width:56vw;
+	}
+	#reg_left{
+		width:90%;
+		border: none;
+	}
+	#reg_right{
+		float: left;
+	}
+	#reg_tishi,#reg_tishi2{
+		margin-left: 42px;
+	}
+	#reg_login{
+		margin-left: 148px;
+	}
+	#reg_weibo{
+		margin-left: 148px;
+	}
+	#reg_qq{
+		margin-left: 255px;
+		margin-top: -30px;
+	}
+}
